@@ -2,6 +2,28 @@
 
 Local-first proof of concept for accounting across IBKR stock and options campaigns, including rolls, option premium, stock cashflows, commissions, lifecycle timing, reconciliation and historical Flex reconstruction.
 
+## Application screenshots
+
+The screenshots below show Campaign Desk's built-in **demo mode** with illustrative data. They are not actual brokerage balances, positions or performance results.
+
+### Dashboard
+
+![Campaign Desk dashboard showing demo account summary, open campaigns and accounting health](dashboard.jpg)
+
+*Demo dashboard — premium, stock capital, fees and campaign P/L are presented separately.*
+
+### Campaign accounting
+
+![Campaign Desk campaign ledger with open and archived options campaigns](campaign-ledger.jpg)
+
+*Campaign ledger — open and closed campaigns, rolls, realised P/L and reconciliation status.*
+
+### Historical report preview
+
+![Campaign Desk historical report coverage and validation screen](history-preview.jpg)
+
+*Read-only historical report preview — report coverage and validation before reconstruction.*
+
 ## Architecture
 
 - .NET 10 local web application and accounting engine
